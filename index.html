@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="icon" href="images/favicon.ico" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
@@ -24,34 +26,141 @@
     </div>
   </nav>
 
-  <div id="whoIAm" class="container-fluid bg-1 text-center">
-    <h3 class="margin">Who Am I?</h3>
-    <img src="images/photo_profil_reduite.png" class="img-responsive img-circle margin" style="display:inline" alt="profil" width="200" height="200">
-    <h3>I'm an Adventurer in the Data World!</h3>
-  </div>
+  <header id="header" class="container-fluid bg-1 text-center">
+    <img src="images/profil.png" class="img-responsive img-circle" style="display:inline" alt="profil" width="200" height="200">
+    <h1>Welcome to my World!</h1>
+  </header>
 
-
-  <div id="projects" class="container-fluid bg-3 text-center">
-    <h3 class="margin">My Projects</h3><br>
+  <div id="whoIAm" class="container-fluid bg-2">
+    <h1 class="margin">Who Am I?</h1>
     <div class="row">
-      <div class="col-md-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <!-- <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image"> -->
+
+      <div class="col-md-6">
+        <p class="center">
+          <i class="fa fa-graduation-cap fa-2x"></i>
+        </p>
+        <p>
+          My name is Christophe Cluizel. I'm a 5th year student in an engineering school called <abbr title="National Institute of Applied Sciences">INSA</abbr> in France. I have studied machine learning, data mining and I'm impatient to be able to apply these concepts in the real data world!
+        </p>
       </div>
-      <div class="col-md-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <!-- <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image"> -->
-      </div>
-      <div class="col-md-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <!-- <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image"> -->
+
+      <div class="col-md-6">
+        <p class="center">
+          <i class="fa fa-laptop fa-2x"></i>
+        </p>
+        <p>
+          I'm keen on computer science and I love learning and discovering new technologies, languages or other tools. Especially, data science and Scala are my cup of tea. I have played with nice stuff like Spark, GraphX and Zeppelin to deal with big amount of data.
+        </p>
       </div>
     </div>
   </div>
 
+
+  <div id="projects" class="container-fluid bg-3">
+    <h1 class="margin">My Projects</h1><br>
+    <div class="row">
+
+    <!-- Orange -->
+      <div class="col-md-6 margin">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <p class="center">
+              <img src="images/orange.jpeg" class="img-responsive" style="display:inline" alt="codingame">
+            </p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avari -->
+      <div class="col-md-6 margin">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <p class="center">
+              <img src="images/avari.jpg" class="img-responsive" style="display:inline" alt="avari">
+            </p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Codingame -->
+    <div class="row">
+      <div class="col-md-6 margin">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <p class="center">
+              <img src="images/codingame.jpg" class="img-responsive" style="display:inline" alt="codingame">
+            </p>
+          </div>
+          <div class="panel-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="panel-footer">
+            <div class="btn-group btn-group-justified">
+              <a class="btn btn-primary" href="https://www.codingame.com/profile/4cce36f2012969a9a20ea8fdd0a2d8f8960365"><i class="fa fa-user"></i><br>Go to my profile</a>
+              <a class="btn btn-primary" href="https://github.com/ChristopheCluizel/codingame"><i class="fa fa-code"></i><br>Go to my code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Machine Learning Toolbox -->
+      <div class="col-md-6 margin">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="center machineLearningToolbox">Machine Learning Toolbox</h2>
+          </div>
+          <div class="panel-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="panel-footer">
+            <div class="btn-group btn-group-justified">
+              <a class="btn btn-primary" href="https://github.com/ChristopheCluizel/machine_learning_toolbox"><i class="fa fa-code"></i><br>Go to my code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
   <!-- Footer -->
   <footer id="footer" class="container-fluid bg-4 text-center">
-    <h3 class="margin">Where To Find Me?</h3><br>
+    <h1 class="margin">Where To Find Me?</h1><br>
     <div class="row">
 
       <!-- Email -->
